@@ -1,4 +1,7 @@
 // Student data storage
+
+
+
 let students = JSON.parse(localStorage.getItem('students')) || [];
 
 // DOM Elements
