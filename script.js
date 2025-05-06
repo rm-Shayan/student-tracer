@@ -56,7 +56,7 @@ function handleSubmit(e) {
     // Update table
     renderStudentTable();
 }
-
+// done
 function handleSearch(e) {
     const searchTerm = e.target.value.toLowerCase();
     const filteredStudents = students.filter(student => 
